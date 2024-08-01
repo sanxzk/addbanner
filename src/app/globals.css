@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+  }
+}
+
+body {
+}
+
+@layer utilities {
+}
+
+/* src/styles/globals.css or your component CSS module */
+.slick-slider {
+  margin: 0 auto; /* Center the carousel */
+}
+
+.slick-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slick-track {
+  display: flex; /* Ensure slick items align properly */
+}
+
+.slick-slide > div {
+  display: flex; /* Ensure items are centered */
+}
